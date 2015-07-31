@@ -1,0 +1,44 @@
+{
+    "repeat": {
+        "*": [
+            "!repeat <subcommmand> <options>",
+            "Subcommands: start, stop, message, interval",
+            "",
+            "The repeat system lets me repeat a message every",
+            "once in a while. I can only be controlled by the",
+            "bot's administrator(s)."
+            "",
+            "Do {{!}}help repeat <subcommand>",
+            "for more information."
+        ],
+
+        "<subcommand>":  "You actually need to replace <subcommand> with one of the commands.",
+
+        "start": [
+            "!repeat start",
+            "",
+            "Starts the repeating message. Does nothing if already started."
+        ],
+
+        "stop": [
+            "!repeat stop",
+            "",
+            "Stops the repeating message. Does nothing if already stopped."
+        ],
+
+        "interval": [
+            "!repeat interval <n>",
+            "",
+            "Changes the repeating interval to be <n> seconds.",
+            "If already repeating, the interval will be updated after",
+            "the message is repeated next. If that is too soon/long, you",
+            "can stop and start this to force it to update."
+        ],
+
+        "message": [
+            "!repeat message <new-message>",
+            "",
+            "Changes the message to repeat."
+        ]
+    }
+}

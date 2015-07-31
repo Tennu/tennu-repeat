@@ -1,0 +1,14 @@
+{
+  "name": "tennu-repeat",
+  "version": "1.0.0",
+  "description": "Repeat plugin for Tennu (Say something in a channel every N minutes)",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tennu-plugin"
+  ],
+  "author": "Ryan Scheel (Havvy)",
+  "license": "ISC"
+}
